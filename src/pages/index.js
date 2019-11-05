@@ -15,7 +15,7 @@ class App extends Component {
           <SEO title="Home" keywords={[`gatsby`, `MDBReact`, `react`, `Material Design For Bootstrap`]} />
         <Carousel />
         <Intro />
-        <main>
+        {/* <main>
           <AboutSection />
           <section id="cardSection">
             <h2 className="h1-responsive text-center font-weight-bold mb-5">
@@ -27,7 +27,7 @@ class App extends Component {
               <Card />
             </MDBRow>
           </section>
-        </main>
+        </main> */}
         </Layout>
       </>
     );

@@ -7,9 +7,9 @@ import "./layout.css"
 
 const Layout = ({ children }) => (
      <>
-        <Navbar />
+        {/* <Navbar /> */}
           {children}
-        <Footer />
+        {/* <Footer /> */}
       </>
 )
 
